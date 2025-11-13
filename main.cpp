@@ -20,7 +20,7 @@ int main() {
     for (int i = 0; i < m; i++) {
         cin >> edges[i].u >> edges[i].v >> edges[i].w;
     }
-
+jl;jkll;ljm;lkj;;loiu
     // Сортировка рёбер по весу
     sort(edges.begin(), edges.end(), [](Edge a, Edge b) {
         return a.w < b.w;
