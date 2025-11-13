@@ -9,12 +9,10 @@ struct Edge {
 };
 
 
-sfdfdsf
-dsfsdfs
-sfsd
+
+
 int main() {
-    int n, m;
-    cin >> n >> m;
+
 
     vector<Edge> edges(m);
     for (int i = 0; i < m; i++) {
@@ -42,4 +40,5 @@ jl;jkll;ljm;lkj;;loiu
     cout << "Вес минимального остовного дерева: " << totalWeight << endl;
 
     return 0;
+
 }
