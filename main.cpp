@@ -8,7 +8,7 @@ struct Edge {
     int u, v, w;
 };
 
-int parent[100005];
+
 
 
 
