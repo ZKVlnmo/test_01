@@ -8,13 +8,9 @@ struct Edge {
     int u, v, w;
 };
 
-int parent[100005];
 
-int find(int x) {
-    if (parent[x] != x)
-        parent[x] = find(parent[x]);
-    return parent[x];
-}
+
+
 
 int main() {
     int n, m;
